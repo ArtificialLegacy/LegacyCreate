@@ -1,3 +1,6 @@
+import Renderer from './renderer.js';
+import Physics from './physics.js';
+
 import Instance from './instances.js';
 import Layer from './layers.js';
 import World from './worlds.js';
