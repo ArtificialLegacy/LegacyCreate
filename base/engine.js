@@ -6,14 +6,14 @@ class Engine {
   constructor(){
     
   }
-  createInstant(){
-    
+  createInstant(tempX, tempY, tempWidth, tempHeight, tempName){
+    return new Instance(tempX, tempY, tempWidth, tempHeight, tempName);
   }
-  createLayer(){
-    
+  createLayer(tempName){
+    return new Layer(tempName);
   }
-  createWorld(){
-    
+  createWorld(tempName){
+    return new World(tempName);
   }
 }
 
