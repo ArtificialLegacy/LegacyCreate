@@ -29,3 +29,5 @@ class Instance {
     };
   }
 }
+
+export default Instance;
