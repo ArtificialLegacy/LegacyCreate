@@ -1,6 +1,7 @@
 class Instance {
-  constructor(tempX, tempY, tempWidth, tempHeight, tempName){
-    this.name = tempName;
+  constructor(tempID, tempTemplate, tempX, tempY, tempWidth, tempHeight){
+    this.id = tempID;
+    this.template = tempTemplate;
     this.position = {
       "x": tempX,
       "y": tempY,
