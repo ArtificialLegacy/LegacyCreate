@@ -1,4 +1,4 @@
-class Object {
+class Objects {
   constructor(tempName, tempParent=false, tempHasPhysics, tempIsVisable, tempSprite=null){
     this.name = tempName;
     this.parent = tempParent;
@@ -8,3 +8,5 @@ class Object {
     this.instances = [];
   }
 }
+
+export default Objects;
