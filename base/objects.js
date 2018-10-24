@@ -5,5 +5,6 @@ class Object {
     this.hasPhysics = tempHasPhysics;
     this.isVisable = tempIsVisable;
     this.sprite = tempSprite;
+    this.instances = [];
   }
 }
