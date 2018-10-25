@@ -5,7 +5,7 @@ class World {
   }
   add(tempLayer, tempDebug = false){
     this.instances.push(tempLayer);
-    if(tempDebug == false) console.log(`Added layer${tempLayer.name} to layer position ${this.layers.length-1}.`);
+    if(tempDebug) console.log(`Added layer${tempLayer.name} to layer position ${this.layers.length-1}.`);
   }
   remove(tempID){
     delete this.layers[tempID];
