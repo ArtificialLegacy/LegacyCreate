@@ -3,14 +3,14 @@ class World {
     this.name = tempName;
     this.layers = [];
   }
-  add(tempLayer, tempDebug = false){
+  addLayer(tempLayer, tempDebug = false){
     this.instances.push(tempLayer);
     if(tempDebug) console.log(`Added layer${tempLayer.name} to layer position ${this.layers.length-1}.`);
   }
-  remove(tempID){
+  removeLayer(tempID){
     delete this.layers[tempID];
   }
-  pop(tempID){
+  popLayer(tempID){
     object = this.layers[tempID];
     delete this.layers[tempID];
     this.layers.unshift(object);
