@@ -34,3 +34,21 @@ const Object_1 = Game.createObject(object1, undefined, false, true, undefined);
 * hasPhysics: boolean
 * isVisible: if the object is rendered
 * sprite: the sprite for the object
+
+#### Create an instance
+```javascript
+const Instance_1 = Game.createInstance(instance1, Object_1, 100, 100, 50, 50);
+```
+* This creates an instance of Object_1 at (100, 100) with a size of (50, 50)
+
+#### Add Instance to layer
+```javascript
+Layer_1.addInstance(Instance_1);
+```
+* This pushes an object into the layer
+
+#### Add layer to world
+```javascript
+World_1.addLayer(Layer_1);
+```
+* This pushes a new layer to the world. The new layer will always be at the end
