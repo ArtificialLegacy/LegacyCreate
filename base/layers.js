@@ -12,7 +12,7 @@ class Layer {
   }
   popInstance(tempID){
     object = this.instances[tempID];
-    delete this.instances[tempID];
+    this.instances.splice(tempID);
     this.instances.unshift(object);
   }
 }
