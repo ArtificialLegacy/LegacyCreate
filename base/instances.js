@@ -9,24 +9,6 @@ class Instance {
     this.shape = {
       "width": tempWidth,
       "height": tempHeight,
-      "vertexes": {
-        "top-left": {
-          "x": tempX,
-          "y": tempY,
-        },
-        "top-right": {
-          "x": tempX+tempWidth,
-          "y": tempY,
-        },
-        "bottom-left": {
-          "x": tempX,
-          "y": tempY+tempHeight,
-        },
-        "bottom-right": {
-          "x": tempX+tempWidth,
-          "y": tempY+tempHeight,
-        },
-      },
     };
   }
 }
